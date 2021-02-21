@@ -91,7 +91,11 @@ nav a:hover{
     .logo img{
         display: none;
     }
-
+    
+    .bg-vid{
+        display: none;
+    }
+    
     nav{
         text-align: center;
         margin-left: 0px;
@@ -99,6 +103,14 @@ nav a:hover{
 
     .catchphrase{
          margin-top: 55%;
+    }
+
+    body{
+        background: url("bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: auto;
     }
 }
 
